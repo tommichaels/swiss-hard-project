@@ -25,7 +25,7 @@ contract Swisstronik {
     /**
      * @dev getMessage() retrieves the currently stored message in the contract
      * @return The message associated with the contract
-     */
+    */
     function getMessage() public view returns(string memory){
         return message;
     }

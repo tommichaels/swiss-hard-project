@@ -1,5 +1,7 @@
 const hre = require("hardhat");
 
+console.log("Yooooo!!!!!!!!!!")
+
 async function main() {
   /**
    * @dev make sure the first argument has the same name as your contract in the Hello_swtr.sol file
