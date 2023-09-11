@@ -29,7 +29,8 @@ const sendShieldedTransaction = async (signer, destination, data, value) => {
 
 async function main() {
   // Address of the deployed contract
-  const contractAddress = "0xf84Df872D385997aBc28E3f07A2E3cd707c9698a";
+  console.log("Yooooo!!!!!!!!!! Line 32");
+  const contractAddress = "0x142315Cc9C486154C660B4AEA12B2150471EE317";
 
   // Get the signer (your account)
   const [signer] = await hre.ethers.getSigners();
@@ -46,6 +47,7 @@ async function main() {
 
   //It should return a TransactionResponse object
   console.log("Transaction Receipt: ", setMessageTx);
+
 }
 
 // Using async/await pattern to handle errors properly
