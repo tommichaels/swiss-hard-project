@@ -1,6 +1,6 @@
 # LearnWeb3DAO <> Swisstronik Challenge
 
-This project demonstrates a simple Hardhat x Swisstronik use case. It consists of a simple solidity smart contract which sets and gets a message (string) and three scripts that deploys, sets and gets that contract(i.e the message that was set).
+This project demonstrates a simple Hardhat x Swisstronik use case. It consists of a simple solidity smart contract which sets and gets a message (string) and three scripts that deploys the "contract", sets and gets a message(i.e the message that was set).
 
 ## Task 
 Deploy a smart contract using Hardhat on the Swisstronik network.
