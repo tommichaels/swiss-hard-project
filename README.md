@@ -1,6 +1,6 @@
 # LearnWeb3DAO <> Swisstronik Challenge
 
-This project demonstrates a simple Hardhat x Swisstronik use case. It consists of a simple solidity smart contract which sets and gets a message (string) and three scripts that deploys the "contract", sets and gets a message(i.e the message that was set).
+This project demonstrates a simple Hardhat use case that is deployed on the Swisstronik network. It consists of a simple solidity smart contract which sets and gets a message (string) and three scripts that "deploys" the contract, sets and gets a message respectively.
 
 ## Task 
 Deploy a smart contract using Hardhat on the Swisstronik network.
@@ -28,6 +28,9 @@ https://explorer-evm.testnet.swisstronik.com/tx/0x095888ada3ed4986dbebb701965e37
 ```
 
 ## 2. Deploy code in scripts/deploy.js
+
+Create a file in scripts folder and name it 'deploy.js'
+
 ```
 npx hardhat run scripts/deploy.js --network swisstronik 
 ```
@@ -36,7 +39,7 @@ npx hardhat run scripts/deploy.js --network swisstronik
 ```
 npm i @swisstronik/swisstronik.js
 ```
-Create File setMessage.js in folder Scripts
+Create a file in the scripts folder and name it 'setMessage.js'
 
 ```
 npx hardhat run scripts/setMessage.js --network swisstronik
@@ -49,7 +52,7 @@ https://explorer-evm.testnet.swisstronik.com/tx/0x7238ecf7885503a8c9df462997933a
 
 ## 4. Interact with the contract - Call
 
-Create File getMessage.js in folder Scripts
+Create a file in the scripts folder and name it 'getMessage.js'
 
 ```
 npx hardhat run scripts/getMessage.js --network swisstronik
